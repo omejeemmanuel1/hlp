@@ -6,14 +6,14 @@ import google from '@/public/google-play-image.svg';
 // import qrCode from '@/public/qrcode-img.png';
 export default function FaqSection() {
   return (
-    <section className="bg-[#FAF9F8] w-full py-[60px] md:py-[100px] md:px-[100px]">
+    <section className="bg-[#FAF9F8] w-full py-[60px] md:py-[100px] md:px-[127px]">
       <div className=" md:flex md:flex-row">
         <div className=" md:flex flow-row items-center md:flex-col md:items-start">
           <h2 className="text-center mb-6 leading-6 text-[28px] font-lato font-extrabold md:text-[64px] md:leading-[100%] md:text-left">
             You Have Questions ?
           </h2>
           <div className="">
-            <p className="font-lato font-semibold text-xl -tracking-[1%]  mb-10 md:text-[32px] md:leading-[100%] text-center">
+            <p className="font-lato font-semibold text-xl -tracking-[1%] mb-10 md:text-[32px] md:leading-[100%] text-center">
               We have answers for you ...
             </p>
           </div>
@@ -26,10 +26,10 @@ export default function FaqSection() {
               className="border-[0.75px] border-[#E6E6E6] shadow-sm rounded-lg"
             />
           </div>
-          <p className="hidden md:block text-[24px] font-lato font-bold italic text-mainColor">
+          <p className="hidden md:block md:text-base md:mt-2 font-lato font-bold italic text-mainColor">
             Scan to download
           </p>
-          <div>
+          <div className="flex justify-center my-10">
             <DownLoapApp
               playStore={{ icon: google, alt: 'Google Play Icon', size: 20 }}
               appStore={{ icon: apple, alt: 'Google Play Icon', size: 20 }}

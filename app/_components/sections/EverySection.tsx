@@ -1,10 +1,12 @@
 import Image from 'next/image';
-import everyImage from '@/public/every-image.svg';
+// import everyImage from '@/public/every-image.svg';
+import everyImage1 from '@/public/images/image-1.png';
 export default function EverySection() {
   return (
-    <section className="bg-[#FAF9F8] py-16 md:px-[100px] md:py-[60px]">
-      <div className=" flex items-center justify-center flex-col">
-        <h1 className="font-lato font-extrabold text-[#000000] text-3xl text-center leading-9  mb-6 md:w-[540px] md:text-[48px] md:leading-[100%] md:mb-6">
+    // <section className="bg-[#FAF9F8] py-16 md:px-[100px] md:py-[60px]">
+    <section className="bg-[#FAF9F8] md:px-[127px] md:pt-[60px]">
+      <div className=" flex items-center justify-center flex-col ">
+        <h1 className="font-lato font-extrabold text-[#000000] text-3xl text-center leading-9 mb-6 md:w-[540px] md:text-[48px] md:leading-[100%] md:mb-6">
           Everyday Life Made <br /> Easier
         </h1>
         <div className=" w-full flex items-center justify-center">
@@ -27,18 +29,21 @@ export default function EverySection() {
           </div>
 
           <div className="">
-            <span className="text-mainColor font-lato font-bold capitalize text-lg italic h-[19px] w-[123px] md:text-[24px] md:mb-[84px]">
+            <span className="text-mainColor font-lato mb-[26px] mt-6 font-bold capitalize text-sm italic h-[19px] w-[123px] md:text-lg md:mb-[84px]">
               Scan to download
             </span>
           </div>
         </div>
-        <div className=" w-full h-full md:w-1/2 md:h-1/2">
+        <div className="relative w-full  h-full md:w-1/2 md:h-1/2">
           <Image
-            src={everyImage}
+            src={everyImage1}
             alt="EVery Image"
-            width={100}
-            height={100}
-            className="object-cover w-full h-full"
+            quality={100}
+            priority
+            placeholder="empty"
+            unoptimized={true}
+            sizes="100vw"
+            className="object-cover"
           />
         </div>
       </div>

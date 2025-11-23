@@ -25,7 +25,7 @@ export default function Card({ number, title, description }: CardProps) {
       {/* Content */}
 
       <div className="">
-        <h3 className="font-lato text-2xl font-extrabold leading-tight md:mb-6 mb-4 text-black">
+        <h3 className="font-lato text-2xl font-extrabold leading-tight md:mb-6 mb-4 text-black md:text-[40px]">
           {title}
         </h3>
 

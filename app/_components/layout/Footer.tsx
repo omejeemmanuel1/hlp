@@ -5,13 +5,13 @@ import whatsapp from '@/public/whatsapp.svg';
 import linkedInLogo from '@/public/linkedIn.svg';
 export default function Footer() {
   return (
-    <footer className="bg-[#42114A] py-[40px] px-[16px] md:py-[80px] md:px-[100px]">
+    <footer className="bg-[#42114A] py-10 px-4 md:py-20 md:px-[127px]">
       <div className="max-w-4xl md:mx-auto md:max-w-7xl md:flex md:justify-between">
-        <div className="flex flex-col gap-10 md:items-center md:justify-center">
-          <p className="font-lato font-medium text-2xl italic text-white leading-[100%] md:text-[40px] md:font-medium">
+        <div className="flex flex-col gap-10 md:justify-center">
+          <p className="font-lato font-medium text-2xl italic text-white leading-[100%] md:text-[40px] md:font-medium md:leading-12">
             Always your <br /> Help in Need
           </p>
-          <div className="flex gap-8 mb-12  md:items-center md:justify-center">
+          <div className="flex gap-8 mb-12  md:items-center">
             <Link href="/">
               <Image
                 src={facebook}
@@ -44,8 +44,8 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className=" flex items-start flex-col gap-8 p-2 md:flex-row md:items-center md:justify-center  md:pt-[100px]">
-          <div className="flex flex-col gap-4 md:mb-6">
+        <div className=" flex items-start flex-col gap-10 md:flex-row md:items-center md:justify-between md:pt-[100px]">
+          <div className="flex flex-col gap-4 md:mb-6 ">
             <h4 className="font-lato font-semibold text-xl leading-[100%] text-white md:text-[24px]">
               United States
             </h4>
@@ -63,33 +63,17 @@ export default function Footer() {
               <span>+23408054648121</span>
             </p>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4  md:mt-2">
             <h4 className="font-lato font-semibold text-xl leading-[100%] text-white md:text-[24px]">
               Subscribe to our newsletter
             </h4>
-            {/* <div className="flex w-full md:w-3/4">
-              <div className="md:w-">
-                <input
-                  name="email"
-                  type="email"
-                  id="email"
-                  placeholder="Enter email here ..."
-                  className="p-2 text-white"
-                />
-              </div>
-              <div className="bg-white flex items-center md:flex-1 md:justify-center">
-                <span className="text-mainColor font-lato font-bold text-base">
-                  Subscribe
-                </span>
-              </div>
-            </div> */}
             <div className="flex w-full md:w-3/4">
               <input
                 name="email"
                 type="email"
                 id="email"
                 placeholder="Enter email here ..."
-                className="text-white py-[10px] px-[8px] text-[16px] bg-transparent focus:outline-none focus:ring-0 border border-white"
+                className="text-white py-2.5 px-2 text-[16px] bg-transparent focus:outline-none focus:ring-0 border border-white"
               />
 
               <button className="bg-white text-mainColor font-lato font-bold text-base px-4 flex items-center justify-center">

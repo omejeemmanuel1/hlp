@@ -4,7 +4,7 @@ import everyImage1 from '@/public/images/image-1.png';
 export default function EverySection() {
   return (
     // <section className="bg-[#FAF9F8] py-16 md:px-[100px] md:py-[60px]">
-    <section className="bg-[#FAF9F8] md:px-[127px] md:pt-[60px]">
+    <section className="bg-[#FAF9F8] md:px-[127px] pt-[60px]">
       <div className=" flex items-center justify-center flex-col ">
         <h1 className="font-lato font-extrabold text-[#000000] text-3xl text-center leading-9 mb-6 md:w-[540px] md:text-[48px] md:leading-[100%] md:mb-6">
           Everyday Life Made <br /> Easier

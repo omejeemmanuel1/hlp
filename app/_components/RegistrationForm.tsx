@@ -78,11 +78,6 @@ export default function RegistrationForm() {
         </p>
 
         <div className="md:w-full md:flex md:items-center justify-end">
-          {/* <Link href="https://chat.whatsapp.com/DRrcg03Bli6DyTJOCxvSx0">
-            <button className="mt-4 w-full rounded-md bg-[#9d20c7] text-white font-semibold py-2 text-sm md:1/2">
-              Join WhatsApp Community
-            </button>
-          </Link> */}
           <Link
             href="https://chat.whatsapp.com/DRrcg03Bli6DyTJOCxvSx0"
             className="mt-4 w-full flex items-center justify-center rounded-md bg-[#9d20c7] text-white font-semibold py-2 text-sm md:1/2"

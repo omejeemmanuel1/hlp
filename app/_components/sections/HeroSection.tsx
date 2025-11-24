@@ -4,10 +4,10 @@ import apple from '@/public/apple-img.svg';
 import DownLoapApp from '@/app/_components/DownLoadApp';
 import Link from 'next/link';
 import whatsappImg from '@/public/hero-whatsapp.svg';
-import heroImageOne from '@/public/assets/hero-img-1.svg';
-import heroImageTwo from '@/public/assets/hero-img-2.svg';
-import heroImageThree from '@/public/assets/hero-img-3.svg';
-import heroImageFour from '@/public/assets/hero-img-4.svg';
+import heroImageOne from '@/public/assets/hero-image-3.webp';
+import heroImageThree from '@/public/assets/hero-image-5.webp';
+import heroImageTwo from '@/public/assets/hero-image-4.webp';
+import heroImageFour from '@/public/assets/hero-image-2.webp';
 
 export default function HeroSection() {
   return (
@@ -33,27 +33,18 @@ export default function HeroSection() {
       </div>
 
       {/* Image layout */}
-      <div className="flex flex-col gap-6 md:flex-row">
-        <div className="relative w-full h-[300px]">
-          <Image
-            src={heroImageOne}
-            quality={100}
-            alt="Hero image one"
-            sizes="100vw"
-            className="object-cover"
-          />
-        </div>
+      <div className="flex flex-col gap-6 md:flex-row md:mt-10">
         <div className="w-full">
           <Image
             src={heroImageOne}
             quality={100}
             width={279}
             height={267}
-            unoptimized={false}
+            unoptimized={true}
             alt="Hero image one"
             placeholder="empty"
             sizes="(max-width: 768px) 100vw 1200px"
-            className="w-full"
+            className="w-full border-2 border-white rounded-[12px]"
           />
         </div>
         <div className="w-full">
@@ -66,7 +57,7 @@ export default function HeroSection() {
             alt="Hero image one"
             placeholder="empty"
             sizes="(max-width: 768px) 100vw 1200px"
-            className="w-full"
+            className="w-full border-2 border-white rounded-[12px]"
           />
         </div>
         <div className="w-full">
@@ -79,7 +70,7 @@ export default function HeroSection() {
             alt="Hero image one"
             placeholder="empty"
             sizes="(max-width: 768px) 100vw 1200px"
-            className="w-full"
+            className="w-full border-2 border-white rounded-[12px]"
           />
         </div>
         <div className="w-full">
@@ -92,7 +83,7 @@ export default function HeroSection() {
             alt="Hero image one"
             placeholder="empty"
             sizes="(max-width: 768px) 100vw 1200px"
-            className="w-full"
+            className="w-full border-2 border-white rounded-[12px]"
           />
         </div>
       </div>

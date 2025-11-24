@@ -8,10 +8,11 @@ import heroImageOne from '@/public/assets/hero-img-1.svg';
 import heroImageTwo from '@/public/assets/hero-img-2.svg';
 import heroImageThree from '@/public/assets/hero-img-3.svg';
 import heroImageFour from '@/public/assets/hero-img-4.svg';
+
 export default function HeroSection() {
   return (
     // <section className="bg-linear-to-b from-white to-greyColor px-[43px] py-8 relative md:px-[125px] md:py-[100px]">
-    <section className=" to-greyColor px-[43px] py-8 relative md:pl-[127px] md:pr-[127px]  md:py-[100px]">
+    <section className=" bg-linear-to-b from-white to-greyColor px-[43px] py-8 relative md:pl-[127px] md:pr-[127px]  md:py-[100px]">
       <div className="flex flex-col items-center justify-center md:mt-2 ">
         <p className="font-instrument-serif text-2xl italic leading-0 text-center font-normal capitalize pt-[50px] mb-6 text-[#545454] md:mx-2 md:text-[40px] md:mb-8">
           Save time, save Energy
@@ -37,8 +38,8 @@ export default function HeroSection() {
           <Image
             src={heroImageOne}
             quality={100}
-            width={307}
-            height={286}
+            width={279}
+            height={267}
             unoptimized={false}
             alt="Hero image one"
             placeholder="empty"
@@ -50,8 +51,8 @@ export default function HeroSection() {
           <Image
             src={heroImageTwo}
             quality={100}
-            width={307}
-            height={286}
+            width={279}
+            height={267}
             unoptimized={false}
             alt="Hero image one"
             placeholder="empty"
@@ -63,8 +64,8 @@ export default function HeroSection() {
           <Image
             src={heroImageThree}
             quality={100}
-            width={307}
-            height={286}
+            width={279}
+            height={267}
             unoptimized={false}
             alt="Hero image one"
             placeholder="empty"
@@ -76,8 +77,8 @@ export default function HeroSection() {
           <Image
             src={heroImageFour}
             quality={100}
-            width={307}
-            height={286}
+            width={279}
+            height={267}
             unoptimized={false}
             alt="Hero image one"
             placeholder="empty"

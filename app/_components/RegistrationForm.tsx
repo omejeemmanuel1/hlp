@@ -3,6 +3,7 @@ import { toast } from 'sonner';
 import Image from 'next/image';
 import toastImg from '@/public/toast-img.svg';
 import cancelImg from '@/public/cancel-icon.svg';
+import Link from 'next/link';
 
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
@@ -77,9 +78,17 @@ export default function RegistrationForm() {
         </p>
 
         <div className="md:w-full md:flex md:items-center justify-end">
-          <button className="mt-4 w-full rounded-md bg-[#9d20c7] text-white font-semibold py-2 text-sm md:1/2">
+          {/* <Link href="https://chat.whatsapp.com/DRrcg03Bli6DyTJOCxvSx0">
+            <button className="mt-4 w-full rounded-md bg-[#9d20c7] text-white font-semibold py-2 text-sm md:1/2">
+              Join WhatsApp Community
+            </button>
+          </Link> */}
+          <Link
+            href="https://chat.whatsapp.com/DRrcg03Bli6DyTJOCxvSx0"
+            className="mt-4 w-full flex items-center justify-center rounded-md bg-[#9d20c7] text-white font-semibold py-2 text-sm md:1/2"
+          >
             Join WhatsApp Community
-          </button>
+          </Link>
         </div>
       </div>
     );

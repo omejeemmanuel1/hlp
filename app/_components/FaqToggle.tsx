@@ -16,7 +16,7 @@ export default function FaqToggle({
   return (
     <section className="px-4 md:px-10">
       {/* Toggle Header */}
-      <div className=" flex items-center gap-2 w-full mb-6 ">
+      <div className=" flex items-center gap-2 w-full mb-6">
         <div className=" w-auto px-4 py-3 h-auto text-base font-lato font-bold leading-[100%] bg-[#FFFFFF] border-2 border-[#E6E6E6]  rounded-4xl md:text-[24px]">
           <p className="">{question}</p>
         </div>

@@ -6,7 +6,7 @@ import google from '@/public/google-play-image.svg';
 // import qrCode from '@/public/qrcode-img.png';
 export default function FaqSection() {
   return (
-    <section className="bg-[#FAF9F8] w-full py-[60px] md:py-[100px] md:px-[127px]">
+    <section className="bg-[#FAF9F8] w-full py-[60px] md:py-[120px] md:px-[127px]">
       <div className="md:flex md:flex-row ">
         <div className=" md:flex flow-row items-center md:flex-col md:items-start ">
           <h2 className="text-center mb-6 leading-6 text-[28px] font-lato font-extrabold md:text-[64px] md:leading-[100%] md:text-left">
@@ -43,21 +43,7 @@ export default function FaqSection() {
             answer="Help App Africa is a platform that connects you with your nearest local service providers. Whether you need a plumber, electrician, cleaner, or any other professional, Help App Africa makes it easy to find and book reliable service providers."
             defaultOpen
           />
-          {/* FAQ : 
 
-Is helpapp currently in my city ? 
-Answer : Help app is only available in Lagos state with plans of operating in other cities around Nigeria in the soonest time 
-
-How can I book a service provider :  
-Book a provider on help app by selecting their profile, choosing the service (s) that you need , make payment and get it delivered to you 
-
-Can I register as a provider on the platform  ? 
-
-Yes, you can … registration is free …
-
-Is my safety guaranteed on help app when I book a provider ? 
-
-Yes, we take strict measures within our application that is aimed at protecting both our clients and our service providers */}
           <FaqToggle
             question="Is Help App currently in my city ?"
             answer="Help app is only available in Lagos state with plans of operating in other cities around Nigeria in the soonest time "

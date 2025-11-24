@@ -34,6 +34,15 @@ export default function HeroSection() {
 
       {/* Image layout */}
       <div className="flex flex-col gap-6 md:flex-row">
+        <div className="relative w-full h-[300px]">
+          <Image
+            src={heroImageOne}
+            quality={100}
+            alt="Hero image one"
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
         <div className="w-full">
           <Image
             src={heroImageOne}

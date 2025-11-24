@@ -40,8 +40,8 @@ export default function HeroSection() {
             quality={100}
             width={279}
             height={267}
-            unoptimized={true}
             alt="Hero image one"
+            unoptimized={true}
             placeholder="empty"
             sizes="(max-width: 768px) 100vw 1200px"
             className="w-full border-2 border-white rounded-[12px]"

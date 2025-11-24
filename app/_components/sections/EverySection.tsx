@@ -1,6 +1,7 @@
 import Image from 'next/image';
 // import everyImage from '@/public/every-image.svg';
-import everyImage1 from '@/public/images/image-1.png';
+// import everyImage1 from '@/public/images/image-1.png';
+import everyImage1 from '@/public/assets/image-1.webp';
 export default function EverySection() {
   return (
     // <section className="bg-[#FAF9F8] py-16 md:px-[100px] md:py-[60px]">

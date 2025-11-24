@@ -2,7 +2,7 @@ import Card from '../Card';
 
 export default function BuitForSection() {
   return (
-    <section className="flex items-center justify-center flex-col pb-4 md:flex-row md:block py-[60px] pr-4 md:px-[127] md:py-[100] ">
+    <section className="flex items-center bg-[#FAF9F8] justify-center flex-col pb-4 md:flex-row md:block py-[60px] pr-4 md:px-[127] md:py-[100] ">
       <div className="md:flex md:justify-between md:items-end md:mb-[100px]">
         <div className="flex items-center md:items-start  md:justify-between flex-col mb-10 md:mb-0">
           <h3 className="font-lato font-extrabold md:text-[64px] text-[28px] text-[#000000] leading-[100%] mb-[20]">
@@ -21,7 +21,7 @@ export default function BuitForSection() {
           </div>
         </div>
 
-        <div className=" md:py-0 ">
+        <div className=" md:py-0">
           <p
             className="w-[361]
           md:items-end md:text-start
@@ -38,8 +38,8 @@ export default function BuitForSection() {
       </div>
 
       <div
-        className="flex flex-col md:flex-row md:w-full
-        md: gap-11"
+        className="flex  flex-col md:flex-row md:w-full
+        md:gap-11"
       >
         <Card
           number={1}

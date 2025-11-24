@@ -29,7 +29,7 @@ export default function Card({ number, title, description }: CardProps) {
           {title}
         </h3>
 
-        <p className="text-[#8A8A8A] font-semibold text-base leading-relaxed">
+        <p className="text-[#8A8A8A] font-semibold text-base leading-tight  md:text-[24px] md:leading-tight md:mb-8 mb-0">
           {description}
         </p>
       </div>

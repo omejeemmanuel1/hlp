@@ -25,7 +25,7 @@ export default function HeroSection() {
           need them
         </p>
       </div>
-      <div className="hidden md:flex md:justify-center">
+      <div className="flex justify-center my-[43px] md:flex md:justify-center">
         <DownLoapApp
           playStore={{ icon: google, alt: 'Google Play Icon', size: 20 }}
           appStore={{ icon: apple, alt: 'Google Play Icon', size: 20 }}

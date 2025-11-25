@@ -44,7 +44,7 @@ export default function RegistrationForm() {
 
   function handleSuccessToast() {
     const toastID = toast(
-      <div className="w-full max-w-md rounded-xl border border-green-600 bg-green-50 shadow-md p-4 ">
+      <div className="w-full max-w-md rounded-xl border border-green-600 bg-green-50 shadow-md p-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Image
@@ -85,7 +85,8 @@ export default function RegistrationForm() {
             Join WhatsApp Community
           </Link>
         </div>
-      </div>
+      </div>,
+      { duration: Infinity }
     );
   }
 

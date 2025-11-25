@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title: 'Help App Africa',
   description: 'Find and book trusted artisan / service provider in Nigeria',
   icons: {
-    icon: '/logo.svg',
+    icon: '/favicon.png',
   },
 };
 

@@ -6,7 +6,7 @@ import google from '@/public/google-play-image.svg';
 // import qrCode from '@/public/qrcode-img.png';
 export default function FaqSection() {
   return (
-    <section className="bg-[#FAF9F8] w-full py-[60px] md:py-[120px] md:px-[127px]">
+    <section className="bg-[#FAF9F8] w-full py-[60px] md:py-[127px] md:px-[127px]">
       <div className="md:flex md:flex-row ">
         <div className=" md:flex flow-row items-center md:flex-col md:items-start ">
           <h2 className="text-center mb-6 leading-6 text-[28px] font-lato font-extrabold md:text-[64px] md:leading-[100%] md:text-left">

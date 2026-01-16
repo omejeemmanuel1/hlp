@@ -40,7 +40,7 @@ export default function DownLoapApp({
       </div>
       <div className="flex items-center gap-2 max-w-2xl">
         <Link
-          href="/"
+          href="https://play.google.com/store/apps/details?id=com.helpappafrica.helpapp"
           className=" p-2 border border-[#E6E6E6] rounded-full h-10 w-10 flex items-center justify-center"
         >
           <div className="">
@@ -58,7 +58,7 @@ export default function DownLoapApp({
         {/* </div> */}
         <div className="h-6 w-px bg-gray-300"></div>
         <Link
-          href="/"
+          href="https://apps.apple.com/gb/app/help-app-africa/id6737198514"
           className=" border border-[#E6E6E6] rounded-full h-10 w-10 flex items-center justify-center"
         >
           <Image

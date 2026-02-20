@@ -50,7 +50,7 @@ export default function BuitForSection() {
         <Card
           number={2}
           title="Safety - Trust guaranteed"
-          description="Every of our provider is properly verified, so you can book with confidence knowing your safety comes first"
+          description="Our providers are properly vetted and verified, so you can book them confidently, knowing your safety comes first”"
         />
 
         <Card

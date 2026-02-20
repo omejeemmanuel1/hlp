@@ -10,11 +10,11 @@ export default function FaqSection() {
       <div className="md:flex md:flex-row ">
         <div className=" md:flex flow-row items-center md:flex-col md:items-start ">
           <h2 className="text-center mb-6 leading-6 text-[28px] font-lato font-extrabold md:text-[64px] md:leading-[100%] md:text-left">
-            You Have Questions ?
+            You have questions?
           </h2>
           <div className="">
             <p className="font-lato font-semibold text-xl -tracking-[1%] mb-10 md:text-[32px] md:leading-[100%] text-center">
-              We have answers for you ...
+              We have answers for you!
             </p>
           </div>
           <div className="hidden md:block md:mb-2">
@@ -39,26 +39,26 @@ export default function FaqSection() {
         {/* Foundation /primary /primary -300 */}
         <div className="bg-linear-to-b from-white to-[#EEECE8] w-full py-6 border border-[#E6E6E6] md:w-[776px] rounded-sm md:h-auto">
           <FaqToggle
-            question="What is Help App all about ?"
+            question="What is Help App all about?"
             answer="Help App Africa is a platform that connects you with your nearest local service providers. Whether you need a plumber, electrician, cleaner, or any other professional, Help App Africa makes it easy to find and book reliable service providers."
             defaultOpen
           />
 
           <FaqToggle
-            question="Is Help App currently in my city ?"
-            answer="Help app is only available in Lagos state with plans of operating in other cities around Nigeria in the soonest time "
+            question="Is Help App currently in my city?"
+            answer="Currently, Help App operates only in Lagos State, but we’re expanding to other cities across Nigeria soon."
           />
           <FaqToggle
-            question="How can i book a service provider ?"
-            answer="Book a provider on help app by selecting their profile, choosing the service (s) that you need , make payment and get it delivered to you"
+            question="How can i book a service provider?"
+            answer="You can book a provider on Help App by selecting their profile, choosing the service you need, and making payment. Once this process is completed, your artisan will be on the way"
           />
           <FaqToggle
-            question="Can i register as a provider on the platform ?"
-            answer="Yes, you can … registration is free …"
+            question="Can I register as a Help App service provider?"
+            answer="Yes, you can. Registration is free."
           />
           <FaqToggle
-            question="Is my safety guaranteed on help app when I book a provider ? "
-            answer="Yes, we take strict measures within our application that is aimed at protecting both our clients and our service providers"
+            question="Is my safety guaranteed on Help App when I book a provider?"
+            answer="Absolutely. We implement strict verification and safety protocols to protect both clients and service providers"
           />
         </div>
       </div>

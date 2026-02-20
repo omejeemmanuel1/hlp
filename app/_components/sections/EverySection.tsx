@@ -12,10 +12,9 @@ export default function EverySection() {
         </h1>
         <div className=" w-full flex items-center justify-center">
           <p className="w-[300px] text-center tracking-tight font-lato text-lg leading-6 text-[#545454] mb-8 md:font-medium md:w-[700px] md:text-[24px] md:leading-8 md:tracking-normal md:mb-11 md:text-center">
-            No more calling random numbers or begging neighbors for help. Just a{' '}
-            <span className="italic">scroll</span> and a{' '}
-            <span className="italic">click</span>, a verified expert is already
-            on the way
+            Forget calling random numbers or begging neighbors for help. With a quick{' '}
+            <span className="italic">scroll</span> and {' '}
+            <span className="italic">tap</span>, you can get a verified professional at your doorstep
           </p>
         </div>
         <div className="flex items-center flex-col justify-center gap-4 mb-8">

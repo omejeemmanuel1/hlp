@@ -17,8 +17,8 @@ export default function HeroSection() {
         <p className="font-instrument-serif text-2xl italic leading-0 text-center font-normal capitalize pt-[50px] mb-6 text-[#545454] md:mx-2 md:text-[40px] md:mb-8">
           Save time, save Energy
         </p>
-        <h1 className="font-lato text-4xl text-[#000000]  text-center w-[312px] font-extrabold leading-10 mb-4 md:w-6xl md:mb-8 md:text-[64px] md:leading-[100%]">
-          Always your help in need
+        <h1 className="font-lato text-4xl text-[#000000] text-center w-[312px] font-extrabold leading-10 mb-4 md:w-6xl md:mb-8 md:text-[64px] md:leading-[100%]">
+          Real Help, Real People,<br />Trusted Help at Your Fingertips,<br />Connecting You to Trusted Help,<br />Reliable Help, Real People
         </h1>
         <p className="w-[324px] text-center mb-8 font-lato text-lg leading-6 text-[#545454] md:w-xl md:text-[28px] md:mb-12 md:-tracking-[1%] md:leading-[100%]">
           Instant access to trusted professional service providers anytime you
